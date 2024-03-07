@@ -1,32 +1,32 @@
-*Formation Vue.js 3.4
+* Formation Vue.js 3.4
 
 ---
 
-**INTRODUCTION
+* INTRODUCTION
 
-***Init projet :
+*** Init projet :
 
--CDN
--VueCLI -> webpack avec babel (traducteur naviguateur)
--VITE (conseillé pour tout type de projet) -> Rollup (pas de traduction)
+- CDN
+- VueCLI -> webpack avec babel (traducteur naviguateur)
+- VITE (conseillé pour tout type de projet) -> Rollup (pas de traduction)
 
-***extension a avoir : 
+*** extension a avoir : 
 
--Vue 3 Snippets
--TypeScript Vue Plugin (Volar)
+- Vue 3 Snippets
+- TypeScript Vue Plugin (Volar)
 
-***3 construction différentes pour les composants:
+*** 3 construction différentes pour les composants:
 
--API Options (objet js)
--API Composition (déclaration déclarative)
-	-setup(){}
-	-script setup  ----> syntax ref ou reactive
+- API Options (objet js)
+- API Composition (déclaration déclarative)
+	- setup(){}
+	- script setup  ----> syntax ref ou reactive
 
 Nommage d'un composant : 2mot en camel minimum
 
 ---
 
-**BINDING
+** BINDING
 
 unidirectionelle : interpolation; event-binding
 bidirectionelle
@@ -40,7 +40,7 @@ de cousin à cousin : gestion d'état: PINA
 
 ---
 
-**Choses à savoir
+** Choses à savoir
 
 
 watchEffect analyse les opérendes pour faire un champ calculé
